@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Container, Button, Stack, ProgressBar } from "react-bootstrap";
-import GroceryItem from "./GroceryItem";
 import { moneyFormatter } from "./Utility";
 import AddItemModal from "./AddItemModal";
 import { useGroceryList } from "./GroceryListContext";
