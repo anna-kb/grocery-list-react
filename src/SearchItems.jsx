@@ -29,8 +29,7 @@ export default function SearchItems({ groceryItems }) {
     const groceryItemsSplit = [];
     groceryItems.forEach((item, i) => {
       const split = splitString(item.name);
-
-      split.forEach((word) => {
+      ~split.forEach((word) => {
         groceryItemsSplit.push({ name: word.toLowerCase(), index: i });
       });
     });
@@ -57,12 +56,6 @@ export default function SearchItems({ groceryItems }) {
     //check the list of required Words and eliminate the items that do not include them
     if (requiredQueryWords.length !== 0) {
       const requiredItems = [];
-      // requiredQueryWords.forEach((word) => {
-      //   const matches = groceryItems.filter((item) =>
-      //     item.name.toLowerCase().includes(word)
-      //   );
-      //   requiredItems.push(...matches);
-      // });
       groceryItemsSplit.forEach((item) => {
         if (requiredQueryWords.includes(item.name.toLowerCase())) {
           requiredItems.push(groceryItems[item.index]);
