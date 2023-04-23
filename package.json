@@ -1,11 +1,11 @@
 {
-  "homepage": "https://anna-kb.github.io/groceryList-react",
+  "homepage": "https://anna-kb.github.io/grocery-list-react",
   "name": "grocerylist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

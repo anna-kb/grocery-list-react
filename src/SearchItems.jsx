@@ -29,7 +29,7 @@ export default function SearchItems({ groceryItems }) {
     const groceryItemsSplit = [];
     groceryItems.forEach((item, i) => {
       const split = splitString(item.name);
-      ~split.forEach((word) => {
+      split.forEach((word) => {
         groceryItemsSplit.push({ name: word.toLowerCase(), index: i });
       });
     });
