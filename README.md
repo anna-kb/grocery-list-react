@@ -1,8 +1,6 @@
-# grocery-list-react
-A simple grocery list app where you can add, sort, search through items and keep track of the cost.
 
-## Demo
-<a href="https://anna-kb.github.io/grocery-list-react/" alt="Grocery List">
+# Demo
+[Demo here!]<a href="https://anna-kb.github.io/grocery-list-react/" alt="Grocery List">
 
 ## Grocery List App
 
