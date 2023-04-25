@@ -1,6 +1,6 @@
 
 # Demo
-[Demo here!]<a href="https://anna-kb.github.io/grocery-list-react/" alt="Grocery List">
+[Demo here!]("https://anna-kb.github.io/grocery-list-react/")
 
 ## Grocery List App
 
