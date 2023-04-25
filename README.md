@@ -1,6 +1,6 @@
 
 # Demo
-[Demo here!]("https://anna-kb.github.io/grocery-list-react/")
+[Demo](https://anna-kb.github.io/grocery-list-react/)
 
 ## Grocery List App
 
